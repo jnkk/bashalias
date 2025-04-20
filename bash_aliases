@@ -42,3 +42,6 @@ alias s='cd ~/shellgpt; senv'
 alias ss='sgpt'
 alias servedigi='cd $HOME/githubz/digital-garden/; npx quartz build --serve'
 
+alias z='zed'
+alias debianserver='ssh jnkk@192.168.1.141'
+alias portscan='nmap -p 1-65535 192.168.1.141'
