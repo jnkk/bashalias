@@ -47,4 +47,7 @@ alias filetransferpython='$ python3 -m http.server 9999'
 
 alias gennum='openssl rand -base64 32'
 alias ssds='ssh ds'
-alias doomconfig='cd /home/jnkk/.config/doom'
+alias startlustre='gleam run -m lustre/dev start'
+# alias doomconfig='cd /home/jnkk/.config/doom'
+alias sd='ssh sd'
+alias execdocker='docker exec -it bb07e6be35b4 /bin/bash'
