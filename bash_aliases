@@ -40,10 +40,11 @@ alias djrun='uv run manage.py runserver 127.0.0.1:8000'
 alias gp='git push -u origin main'
 
 alias zz='zed'
+alias zz.='zed .'
 #alias debianserver='ssh jnkk@192.168.1.141'
 alias portscan='nmap -p 1-65535 '
 alias ipscan='nmap -sn 192.168.1.1/24'
-alias filetransferpython='$ python3 -m http.server 9999'
+alias filetransferpython='python3 -m http.server 9999'
 
 alias gennum='openssl rand -base64 32'
 alias ssds='ssh ds'
