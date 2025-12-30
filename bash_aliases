@@ -50,7 +50,9 @@ alias gp='git push -u origin main'
 alias cr='cargo run'
 alias zz='zed'
 alias zz.='zed .'
+alias z.='zed .'
 alias c.='code .'
+alias a.='antigravity .'
 
 #alias debianserver='ssh jnkk@192.168.1.141'
 alias portscan='nmap -p 1-65535 '
@@ -59,12 +61,16 @@ alias filetransferpython='python3 -m http.server 9999'
 
 alias gennum='openssl rand -base64 32'
 # alias ssds='ssh ds'
-alias startlustre='gleam run -m lustre/dev start'
+# alias startlustre='gleam run -m lustre/dev start'
 # alias doomconfig='cd /home/jnkk/.config/doom'
 # alias sd='ssh sd'
 alias execdocker='docker exec -it postgres /bin/bash'
 
-alias startphoenix='iex -S mix phx.server'
+alias phoenixstart='mix phx.server'
+alias phxserver='iex -S mix phx.server'
+
+
 alias penpotup='docker compose -p penpot -f docker-compose.yaml up -d'
 alias penpotdown='docker compose -p penpot -f docker-compose.yaml down'
 alias penpotpull='docker compose -f docker-compose.yaml pull'
+alias androidstudio='cd /home/jnkk/Downloads/android-studio/bin; ./studio'
